@@ -1,0 +1,114 @@
+section{
+    padding: 150px 24px !important;
+}
+/* nav */
+nav .navbar-brand i{
+    color: #F39200;
+    font-size: 23px;
+}
+nav .mybutton{
+    background-color: #F39200;
+    border: 1px solid #F39200;
+}
+nav .mybutton:hover{
+    background-color: #f5980b;
+    border: 1px solid #f5980b;
+}
+.hero{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.great-power{
+    background-color: #FBFBFB;
+}
+.great-power .card,
+.starter .card{
+    background-color: #FFFFFF;
+    border: 1px solid rgba(128, 128, 128, 0.16);
+    box-shadow: none;
+}
+.connect{
+    padding-bottom: 0 !important;
+}
+.app{
+    background-color: #FBFBFB;
+}
+.grad{
+    background-color: #EFF4F7;
+}
+.icon{
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    border-radius: 50%;
+    padding: 30px;
+    margin-bottom: 10px;
+    transition: .3s;
+    color: #6a7b96;
+}
+.icon:hover{
+    transform: translateY(-10px);
+    color: #F39200;
+    box-shadow: 0 0px 10px rgba(182, 181, 181, 0.119);
+}
+.icon i{
+    font-size: 40px;
+}
+.title-box h3{
+    color: #6a7b96;
+}
+.card{
+    background-color: #FCFCFC;
+}
+.my-card{
+    position: relative;
+}
+.my-card::before{
+    font-family: "FontAwesome";
+    content: "";
+    position: absolute;
+    top: 0px;
+    top:25px;
+    font-size: 20px;
+    opacity: .3;
+    font-style: normal;
+}
+.my-card .img-box{
+    position: absolute;
+    gap: 10px;
+    bottom: 0;
+    transform: translateY(50%);
+}
+.title-box{
+    padding-bottom:20px ;
+    position: relative;
+}
+.title-box::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 2px;
+    background-color: #F39200;
+}
+footer{
+    background-color: #444F60;
+    color: white;
+    padding: 90px 40px !important;
+}
+footer .column ul li a{
+    color: #6a7b96;
+    line-height: 2.5;
+    transition: .3s;
+}
+footer .column ul li a:hover{
+    color: white;
+}
+footer i{
+    color: #F39200;
+}
+footer i:hover{
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+}
